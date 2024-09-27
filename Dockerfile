@@ -19,7 +19,7 @@ COPY --chmod=0755 gradle gradle
 COPY build.gradle gradlew settings.gradle ./
 COPY ./src src/
 
-RUN  --mount=type=cache,target=/root/.gradle ./gradlew build --refresh-dependencies -x test && \
+RUN  --mount=type=cache,target=/root/.gradle ./gradlew build --no-daemon --refresh-dependencies -x test && \
      mv build/libs/$(./gradlew properties -q -Dorg.gradle.logging.level=quiet | grep "^name: " | awk '{print $2}')-$(./gradlew properties -q -Dorg.gradle.logging.level=quiet | grep "^version: " | awk '{print $2}').jar build/libs/app.jar
 
 ################################################################################
