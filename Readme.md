@@ -22,5 +22,5 @@ docker compose up
 ## References
 
 - [Containerize a Java application - Docker Docs Guide](https://docs.docker.com/guides/language/java/containerize/)
-- [Dockerfiles - Packaging Spring Boot Applications](https://docs.spring.io/spring-boot/reference/packaging/container-images/dockerfiles.html)
-- [Spring Boot with Docker - Spring Guides](https://spring.io/guides/gs/spring-boot-docker)
+- [Dockerfiles - Spring Boot Reference](https://docs.spring.io/spring-boot/reference/packaging/container-images/dockerfiles.html)
+- [Spring Boot with Docker - Spring Boot Guide](https://spring.io/guides/gs/spring-boot-docker)
