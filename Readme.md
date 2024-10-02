@@ -1,4 +1,8 @@
-# Containerize a Java application
+# Building a RESTful Web Service
+
+“Hello, World” RESTful web service with Spring
+
+## Containerize a Java application
 
 Dockerfile to create a Docker image for a Spring Boot application. 
 
