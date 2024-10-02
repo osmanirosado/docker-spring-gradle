@@ -39,7 +39,7 @@ curl http://localhost:8080/greeting?name=Rocio
 
 ## References
 
-- [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service)
+- [Building a RESTful Web Service - Spring Boot Guide](https://spring.io/guides/gs/rest-service)
 - [Containerize a Java application - Docker Docs Guide](https://docs.docker.com/guides/language/java/containerize/)
 - [Dockerfiles - Spring Boot Reference](https://docs.spring.io/spring-boot/reference/packaging/container-images/dockerfiles.html)
 - [Spring Boot with Docker - Spring Boot Guide](https://spring.io/guides/gs/spring-boot-docker)
