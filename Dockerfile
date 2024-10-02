@@ -55,12 +55,13 @@ ARG UID=10001
 RUN adduser \
     --disabled-password \
     --gecos "" \
-    --home "/nonexistent" \
     --shell "/sbin/nologin" \
     --no-create-home \
     --uid "${UID}" \
-    appuser
-USER appuser
+    app
+USER app
+
+WORKDIR /home/app
 
 # Copy the executable from the "package" stage.
 COPY --from=extract builder/build/libs/extracted/dependencies/ ./
